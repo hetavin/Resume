@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 70%;
+    background-color: #d9d9d9;
+    color: #353535;
+    border: 2px solid #4c2102;
+}
+
+#sec {
+    background: #f8cfb4;
+    display: flex;
+}
+
+#sec .hr hr {
+    height: 100%;
+    margin: 0 0 0 0;
+}
+
+.div1 {
+    width: 30%;
+}
+
+.div2 {
+    background: #c55a11;
+    color: #f8cfb4;
+    width: 70%;
+}
+
+img {
+    width: 70%;
+    margin: 15%;
+    border: 2px solid #4c2102;
+    border-radius: 10%;
+}
+
+#row1 .details, .name {
+    margin: 20px 15%;
+}
+
+#row2, #row3, #row4, #row5 {
+    display: flex;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+.hr {
+    display: flex;
+    align-items: center;
+}
+
+.hr hr {
+    width: 2px;
+    height: 70px;
+    border: 0;
+    background-color: #4c2102;
+    margin: 0;
+}
+
+.name h1 {
+    font-size: 25px;
+    margin: 0;
+    color: #3c6e71;
+}
+
+.details {
+    margin: 0;
+    font-size: 15px;
+}
+
+.details p {
+    margin: 0;
+}
+
+.objactive, .SKILLS, .EDUCATION, .STRENGTHS {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.details ul {
+        padding-inline-start: 20px;    
+}
+
+#row3 .hr hr{
+    height: 185px;
+}
+
+#row2 .hr hr {
+    height: 90px;
+    margin-left: 15px;
+    margin-right: 14px;
+
+}
+
+#row3 .hr hr {
+    height: 185px;
+    margin-left: 14px ;
+    margin-right: 14px;
+
+}
+
+#row4 .hr hr {
+    height: 70px;
+    margin-left: 14px;
+    margin-right: 14px;
+
+}
+
+#row5 .hr hr {
+    height: 70px;
+    margin-left: 10px ;
+    margin-right: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 10px;
+        max-width: 100%;
+    }
+
+    #sec {
+        flex-direction: column;
+    }
+
+    .div1, .div2 {
+        width: 100%;
+    }
+
+    img {
+        width: 50%;
+        border-radius: 10px;
+        margin: 10% 25%;
+    }
+    
+    #row2, #row3, #row4, #row5 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hr hr {
+        display: none;
+        height: 50px;
+        margin: 10px 0;
+    }
+    
+}
